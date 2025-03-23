@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="20.282" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-03-21T06:59:48.854626Z">
+<testcase classname="feature to search on to Goggle" name="serach item in goggle" time="6.094">
+<system-out><![CDATA[
+Given user is on goggle page................................................passed
+When user enters item name in search textfeild..............................passed
+And user clicks on search button............................................passed
+Then products details should display........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="feature to login with valid credentials" name="user should be logged in successfully - #1.1" time="2.221">
+<system-out><![CDATA[
+Given user is on saucedemo page.............................................passed
+When user enters the standard_user and secret_sauce.........................passed
+And user clicks on login  button............................................passed
+Then user should Navigate to homepage.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="feature to login with valid credentials" name="user should be logged in successfully - #1.2" time="2.248">
+<system-out><![CDATA[
+Given user is on saucedemo page.............................................passed
+When user enters the locked_out_user and secret_sauce.......................passed
+And user clicks on login  button............................................passed
+Then user should Navigate to homepage.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="feature to login with valid credentials" name="user should be logged in successfully - #1.3" time="2.226">
+<system-out><![CDATA[
+Given user is on saucedemo page.............................................passed
+When user enters the problem_user and secret_sauce..........................passed
+And user clicks on login  button............................................passed
+Then user should Navigate to homepage.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="feature to login with valid credentials" name="user should be logged in successfully - #1.4" time="7.344">
+<system-out><![CDATA[
+Given user is on saucedemo page.............................................passed
+When user enters the performance_glitch_user and secret_sauce...............passed
+And user clicks on login  button............................................passed
+Then user should Navigate to homepage.......................................passed
+]]></system-out>
+</testcase>
+</testsuite>
